@@ -5,11 +5,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [MatDatepickerModule, MatFormFieldModule, MatInputModule],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
-  providers:[provideNativeDateAdapter()]
+    selector: 'app-root',
+    imports: [MatDatepickerModule, MatFormFieldModule, MatInputModule],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss',
+    providers: [provideNativeDateAdapter()]
 })
 export class AppComponent {}
